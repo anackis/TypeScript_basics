@@ -11,6 +11,7 @@ const numberArray: number[] = [1, 1, 2, 3, 5, 8, 13]
 const numberArray2: Array<number> = [1, 1, 2, 3, 5, 8, 13]
 
 const words: string[] = ['Hellow', 'TypeScript']
+const items: (string | number)[] = [5, 'Luis']
 
 // Tuple
 const contact: [string, number] = ["Vladimir", 1234567]
@@ -50,3 +51,15 @@ const id1: ID = 1234
 const id2: ID = 'my-id'
 
 type SomeType = string | null | undefined
+
+
+const account: {
+  name: string,
+  balance: number,
+  status?: string
+} = {
+  name: 'Luis',
+  balance: 10
+}
+
+let accounts: {}[];

@@ -1,3 +1,4 @@
+// Classes are BluePrints for objects and we can add Interfaces to them.
 class TypeScript {
   version: string
 

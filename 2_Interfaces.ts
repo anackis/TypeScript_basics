@@ -1,4 +1,4 @@
-interface Rect {
+interface Rect {  // Interfaces are used to create types for Onjects. They exists only in TS and not compiling to JS.
   readonly id: string // readonly if we want read only :D
   color?: string  // ? -> mean that this field not necessary
   size: {
@@ -15,6 +15,8 @@ const rect1: Rect = { // Simple way of creating object
   },
   color: '#fff'
 }
+
+// let rects: Rect[];
 
 const rect2: Rect = { // Because color have "?" we can not assign at all or can do it later 
   id: '12345',
